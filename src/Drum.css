@@ -1,0 +1,436 @@
+.drumwrapper {
+    background-color: #FFF;
+    width: 950px;
+    height: 50vh;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    border: 5px solid #76eaff;
+    position: relative;
+  }
+
+  .instruction {
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+    color: #76eaff;
+}
+
+.mPower {
+  top: 93%;
+  left: 49%;
+}
+
+.mRecord {
+  top: 93%;
+  left: 73.8%;
+}
+
+.mPlay {
+  top: 93%;
+  left: 83.5%;
+}
+
+.mDownload {
+  top: 93%;
+  left: 90%;
+}
+
+.mImport {
+  top: 31%;
+  left: 59%;
+}
+  
+  .drumset {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    width: calc(100% / 3);
+    grid-gap: 20px;
+    margin: 0;
+    position: absolute;
+    margin-left: 70px; 
+    margin-top: 8vh;
+    height: 30vh;
+  }
+  
+  .drum-pad {
+    font-size: 6vh;
+    background-color: white;
+    display: flex; 
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    height: 10vh;
+    cursor: pointer;
+    user-select: none;
+    transition: all 100ms ease-in;
+    padding-top: 10px;
+  }
+  
+  .drum-pad:hover {
+    background-color: #76eaff;
+  }
+  
+  .drumPress {
+    font-size: 6vh;
+    background-color: #76eaff;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+     display: flex; 
+    justify-content: center;
+    border-radius: 20px;
+    height: 10vh;
+    cursor: pointer;
+    user-select: none;
+    padding-top: 13px;
+  }
+
+  .fixDisplay {
+    position: relative;
+    bottom: 6px;
+    font-size: 1.2rem;
+  }
+  
+  button {
+      border: none;
+      padding: 0;
+      cursor: pointer;
+    outline: none;
+    width: 100%; 
+    height: 100%; 
+    border-radius: 50%;
+    background-color: white;
+  }
+  
+  .buttonClass {
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    border-bottom: #76eaff 4px solid;
+    border-left: #76eaff 2px solid;
+    border-right: #76eaff 2px solid;
+    border-top: #76eaff 2px solid;
+    background-color: white;
+    transition: all .1s ease-out;
+    position: absolute;
+    top: 40vh;
+  }
+
+  .recordName {
+    position: relative;
+    top: 41.5vh;
+    left: 13%;
+    width: 18%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 3px solid #76eaff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  }
+
+  .recordName::-webkit-input-placeholder {
+    color: black; /*Change the placeholder color*/
+    opacity: 0.5;
+    font-size: 0.7rem; /*Change the opacity between 0 and 1*/
+}
+
+  .recordName:focus {
+    outline: none;
+  }
+
+  .record {
+    left: 74%;
+  }
+
+  .restate {
+    color: rgb(231, 67, 67) !important;
+  }
+
+  .play {
+    left: 82.5%;
+  }
+
+  .plIcon {
+    position: relative;
+    left: 4%;
+  }
+
+  .paIcon {
+    position: relative;
+    left: 1%;
+  }
+
+  .export {
+    position: absolute;
+    left: 91%;
+  }
+
+  .exp {
+    color: #76eaff;
+    width: 2.5vh;
+    height: 2.5vh;
+    position: relative;
+    left: 2%;
+  }
+
+  .import {
+    position: absolute;
+    left: 60%;
+    top: 38.5%;
+    width: 4vh !important;
+    height: 4vh !important;
+    border-bottom: #76eaff 2px solid !important;
+  }
+
+  .imp {
+    color: #76eaff;
+    width: 2vh;
+    height: 2vh;
+    position: relative;
+    top: 3%;
+  }
+
+  .dropdown {
+    position: absolute;
+    right: 4%;
+  }
+
+  .dropdown:hover {
+    cursor: pointer;
+  }
+
+  .dropRotate {
+    transform: rotate(90deg);
+  }
+
+  .songg {
+    padding-top: 3%;
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .songg:hover {
+    background-color: #76eaff;
+  }
+
+  .songg:hover .deleteSong {
+    visibility: visible;
+    cursor: pointer;
+  }
+
+  .hide {
+    content-visibility: hidden;
+  }
+
+  .formDrop {
+    margin-top: 1%;
+    z-index: 999 !important;
+    position: absolute;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .buttonClass:active {
+    border-bottom: grey 2px solid;
+    border-left: grey 2px solid;
+    border-right: grey 2px solid;
+    border-top: grey 2px solid;
+    margin-top: 3px;
+  }
+  
+  .offClass {
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    border-bottom: rgb(231, 67, 67) 4px solid;
+    border-left: rgb(231, 67, 67) 2px solid;
+    border-right: rgb(231, 67, 67) 2px solid;
+    border-top: rgb(231, 67, 67) 2px solid;
+    background-color: white;
+    transition: all .1s ease-out;
+    position: absolute;
+    top: 40vh;
+  }
+  
+  .offClass:active {
+    border-bottom: grey 2px solid;
+    border-left: grey 2px solid;
+    border-right: grey 2px solid;
+    border-top: grey 2px solid;
+    margin-top: 3px;
+  }
+  
+  .power {
+    color: #76eaff;
+    width: 3vh;
+    height: 3vh;
+    transition: all .1s ease-out;
+  }
+  
+  .power:active {
+    color: grey;
+  }
+  
+  .poweroff {
+    color: rgb(231, 67, 67);
+    width: 3vh;
+    height: 3vh;
+    transition: all .1s ease-out;
+  }
+  
+  .poweroff:active {
+    color: grey;
+  }
+  
+  .slider {
+    position: absolute;
+    z-index: 1 !important;
+    top: 25vh;
+    right: 10%;
+  }
+  
+  .rangeWrapper {
+    position: relative;
+    z-index: 1 !important;
+  }
+  
+  input[type="range"] {
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+    width: 15rem;
+    z-index: 5;
+    position: relative;
+  }
+  
+  input[type="range"]:focus {
+    outline: none;
+  }
+  
+  input[type="range"]::-webkit-slider-runnable-track {
+    background: white;
+    height: 0.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 500px;
+  }
+  
+  /******** Firefox ********/
+  input[type="range"]::-moz-range-track {
+    background: white;
+    height: 0.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 500px;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    margin-top: -12px; /* Centers thumb on the track */
+    background-color: #76eaff;
+    height: 2rem;
+    width: 1rem;    
+    border-radius: 500px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    margin-left: 2vw;
+  }
+  
+  .marker {
+    position: absolute;
+    top: 100%;
+    padding-top: 16px;
+    font-size: 13px;
+    color: #555;
+    letter-spacing: 0.05em;
+    transform: translateX(-50%);
+    z-index: 1;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .marker:after {
+    content: '';
+    width: 2px;
+    height: 8px;
+    background: grey;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+  
+  .marker-0 {
+    left: 4%;
+  }
+  
+  .marker-25{
+    left: 27%;
+  }
+  
+  .marker-50{
+    left: 50%;
+  }
+  
+  .marker-75{
+    left: 73%;
+  }
+  
+  .marker-100{
+    right: 4%;
+    transform: translateX(50%);
+  }
+  
+  .volmark {
+    position: absolute;
+    left: 6%;
+    top: -7vh;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    background-color: white;
+    width: 210px;
+    height: 50px;
+    text-align: center;
+    padding: 13px 0;
+    border: 3px solid #76eaff;
+    padding-top: 15px;
+    user-select: none;
+  }
+
+  .deleteSong {
+    position: absolute;
+    right: 5%;
+    width: 1.2em !important;
+    height: 1.2em !important;
+    color: white;
+    visibility: hidden;
+  }
+  
+  @media (max-width: 600px) {
+    .buttonClass, .offClass {
+      width: 4vh;
+      height: 4vh;
+      top: 43vh;
+    }
+    .power, .poweroff {
+      width: 2vh;
+      height: 2vh;
+    }
+    input[type="range"] {
+      width: 10rem;
+    }
+    .volmark {
+      width: 150px;
+    }
+    .drumset {
+      margin-left: 30px;
+    }
+  }
