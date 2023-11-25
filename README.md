@@ -23,11 +23,11 @@
 
 <a href=https://drum-machine-play.vercel.app//>Drum Machine</a>
 
-This is an open source Drum Machine project that I built to allow users to express their creative freedom in making music.
-Feel free to modify the code to your needs.
-I also enabled features such as a recording button to save all your notes, 
-An export and import feature to share what you've played.
-Lastly, we have local storage so you won't lose your songs. (Unless you close your browser)
+* This is an open source Drum Machine project that I built to allow users to express their creative freedom in making music.
+* Feel free to modify the code to your needs.
+* I also enabled features such as a recording button to save all your notes, 
+* An export and import feature to share what you've played.
+* Lastly, we have local storage so you won't lose your songs. (Unless you close your browser)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
