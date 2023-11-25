@@ -40,12 +40,12 @@
  
  ## Getting Started
 
-Press any of the available keys on your screen, or press the same key that you see on the screen using your keyboard to play a sound.
-If you press record, the drum will start listening to every key that is pressed, even if you're playing back a different song!
-After you stop recording, click on the rectangular screen on the right to access a drop down menu of all your recorded songs.
-If you wish to download your song, press the Export button to download a JSON file containing the song information.
-And if you wish to import a song, simply upload the file that you want to save.
-What if I refresh or close the tab! No worries, this machine has local storage enabled, preventing the loss of data no matter what (Unless you close your browser).
+* Press any of the available keys on your screen, or press the same key that you see on the screen using your keyboard to play a sound.
+* If you press record, the drum will start listening to every key that is pressed, even if you're playing back a different song!
+* After you stop recording, click on the rectangular screen on the right to access a drop down menu of all your recorded songs.
+* If you wish to download your song, press the Export button to download a JSON file containing the song information.
+* And if you wish to import a song, simply upload the file that you want to save.
+* What if I refresh or close the tab! No worries, this machine has local storage enabled, preventing the loss of data no matter what (Unless you close your browser).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
